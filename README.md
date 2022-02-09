@@ -73,3 +73,40 @@ This is all. Now restart the samba service. you can do it in several ways:
 
 Now go to your windows system or Linux system and look for the printer in the network or the server IP. It might take some time because of how the network is configured and devices connected to it, but this should be the basic to configure any printer on the network.
 
+############################################################################################################################################
+Second Semester
+
+## Physical vs. Cloud
+Physical:
+-Expensive
+-Lead time for equipment
+-Configurations for remote access require acces through school netowrk
+-Easy to configure when all hardware is present
+-Better to pass off when done
+-"Hands on" experiences
+
+Cloud
+-Much more cost effective 
+-Available immediately
+-Remote access very simple to set up and can access anywhere
+-Difficult to set up due to the nature of being virtual
+-Valueable experience in the cloud enviroment
+
+Cloud is the best fit for our project and we can use it to emulate all of our hardware and configure it any way we want.
+
+How?
+
+EVE-NG is a type 1 Hypervisor that will run on the "bare metal" server to emulate our hardware. 
+
+Where?
+
+We will need a rented server with dedicated CPU and high memory. Linode offers both of these for a fraction of the cost of AWS or Azure. We will rent a Linode server with 2 dedicated CPU's and 48 Gb of RAM. This can be done for a base of $120/month. The closest server database is located in Atlanta, GA, we have a very low ping in relation to this database and this would be idea for our needs. 
+
+How can we emulate on a remote server?
+
+We will send Linode a custom ISO image that they will load onto the server and this ISO image will be the EVE-NG hypervisor. EVE-NG will allow us to emulate a network enviroment that is identical to any physical network. EVE-NG pulls in ISO images of actual real world hardware. 
+
+How can we connect?
+
+When Linode rents us a server, we will get either a public IP or a FQDN that will allow us to connect to this server's GUI through a web interface. Setting this up will not be difficult but time consuming. 
+
