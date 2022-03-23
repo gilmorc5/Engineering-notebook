@@ -110,3 +110,7 @@ How can we connect?
 
 When Linode rents us a server, we will get either a public IP or a FQDN that will allow us to connect to this server's GUI through a web interface. Setting this up will not be difficult but time consuming. 
 
+**NETWORK TOPOLOGY**
+![BoeingProjectTopo](https://user-images.githubusercontent.com/79158319/159765697-fcebaa27-3322-4997-9e91-58af0ec403f6.png)
+Above is the intented network topology as of 3/23/2022. When the funding comes through to purchase the Linode Virtual enviroment, we will load the server with the EVE-NG ISO image and begin the build out the network for the Capture the flag event at the end of April.
+
