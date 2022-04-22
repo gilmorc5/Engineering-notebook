@@ -114,3 +114,21 @@ When Linode rents us a server, we will get either a public IP or a FQDN that wil
 ![BoeingProjectTopo](https://user-images.githubusercontent.com/79158319/159765697-fcebaa27-3322-4997-9e91-58af0ec403f6.png)
 Above is the intented network topology as of 3/23/2022. When the funding comes through to purchase the Linode Virtual enviroment, we will load the server with the EVE-NG ISO image and begin the build out the network for the Capture the flag event at the end of April.
 
+** eve-ng **
+
+What is eve-ng?
+
+To describe what Emulated Virtual Environment – Next Generation (EVE-NG) is without solely
+stating dry facts about features, we need to elaborate more on what EVE-NG can be used for
+and whom it would be useful for.
+In some trivial dry words, EVE-NG gives you tools to use around virtual devices and
+interconnect them with other virtual or physical devices. Many of its features greatly simplify the
+usabilities, re-usability, manageability, interconnectivity, distribution and therefore the ability to
+understand and share topologies, work, ideas, concepts or simply “labs”. This can simply mean
+it will reduce the cost and time to set up what you need or it might enable you to do tasks you
+would not have thought could be done this simple.
+
+eve-ng Install - Bare Metal install
+
+https://www.eve-ng.net/index.php/documentation/community-cookbook/
+
